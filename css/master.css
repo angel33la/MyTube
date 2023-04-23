@@ -13,7 +13,7 @@ body {
   display: table-cell;
   vertical-align: middle;
   margin: 1.5;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 form {
@@ -67,6 +67,7 @@ textarea {
 
 
 h1 {
+  font-family: 'Bebas Neue', cursive;
   text-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   text-align: center;
   color: #CCCCFF;
