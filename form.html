@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/master.css">
+  <title>MyTube</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="pages\collection1.html">Fame On Fire</a>
+          <ul>
+            <li>
+              <a href="videos\videos-1.html">Smells Like Teen Spirit</a>
+            </li>
+            <li>
+              <a href="videos\videos-2.html">Rockstar</a>
+            </li>
+            <li>
+              <a href="videos\videos-3.html">Misery Business</a>
+            </li>
+            <li>
+              <a href="videos\videos-4.html">Plastic Heart</a>
+            </li>
+            <li>
+              <a href="videos\videos-5.html">Cut Throat</a>
+            </li>
+            <li>
+              <a href="videos\videos-6.html">Ketamine</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="pages\collection2.html">O'Keefe Music Foundation</a>
+          <ul>
+            <li>
+              <a href="videos\videos-7.html">The Pot</a>
+            </li>
+            <li>
+              <a href="videos\videos-8.html">46 & 2</a>
+            </li>
+            <li>
+              <a href="videos\videos-9.html">Lateralus</a>
+            </li>
+            <li>
+              <a href="videos\videos-10.html">My Curse</a>
+            </li>
+            <li>
+              <a href="videos\videos-11.html">Her Black Wings</a>
+            </li>
+            <li>
+              <a href="videos\videos-12.html">More Human Than Human</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="pages\collection3.html">Our Last Night</a>
+          <ul>
+            <li>
+              <a href="videos\videos-13.html">Oasis</a>
+            </li>
+            <li>
+              <a href="videos\videos-14.html">Bye, Bye, Bye</a>
+            </li>
+            <li>
+              <a href="videos\videos-15.html">Total Eclipse of the Heart</a>
+            </li>
+            <li>
+              <a href="videos\videos-16.html">The Beaten Path</a>
+            </li>
+            <li>
+              <a href="videos\videos-17.html">Losing Sleep</a>
+            </li>
+            <li>
+              <a href="videos\videos-18.html">Let Light Overcome The Darkness</a>
+            </li>
+          </ul>
+        </li>
+        <li><a href="form.html">New Video</a></li>
+      </ul>
+    </nav>
+  </header>
+  <form action="/action.php" method="post">
+    <h1><u> ADD NEW VIDEO:</u></h1>
+    <p><u>Please give title & description of your video here:</u></p>
+    <label for="videoTitle">Video Title:</label><br>
+    <input type="text" id="videoTitle" name="videoTitle" class="form-group" placeholder="video title" required><br>
+    <label for="description">Description:</label><br />
+    <textarea id="descripton" name="descripton1" class="form-group" cols="20" rows="8" aria-label="description1"
+      required>description of video</textarea><br />
+    <p><u>Please choose the video you wish to upload:</u></p>
+    <label for="myfile">Video:</label><br />
+    <input type="file" id="myfile" name="myfile" class="form-class" required><br />
+    <br />
+    <p><u>Which collection will you be adding your video to?</u></p>
+    <label for="collections">Choose Collection:</label><br />
+    <select id="collections" name="collections" class="form-class" required><br />
+      <option value="collection1">Collection 1</option>
+      <option value="collection2">Collection 2</option>
+      <option value="collection3">Collection 3</option>
+    </select><br />
+    <br />
+    <p><u>How often would you like to submit new videos?</u></p>
+    <label for="daily">Daily</label>
+    <input checked="checked" name="newsletter" type="radio" value="daily" aria-label="newsletter" class="input-radio"
+      required />
+    <label for="weekly">Weekly</label>
+    <input name="newsletter" type="radio" value="weekly" aria-label="newsletter" class="input-radio" required />
+    <br />
+    <br />
+    <br />
+    <p><u>Please upload your video here:</u></p>
+    <label><input type="upload" id="upload" class="input-checkbox" placeholder="upload video">Upload Video</label><br />
+    <label><input name="terms" type="checkbox" value="tandc" class="input-checkbox" />Accept terms</label><br />
+    <div class="container">
+      <input type="submit" class="btn btn1" value="Submit" />
+    </div>
+
+
+  </form>
+</body>
+<hr />
+<footer>&copy: Copyright</footer>
+
+</html>
